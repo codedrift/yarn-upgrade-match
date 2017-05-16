@@ -1,0 +1,29 @@
+{
+  "name": "yarn-upgrade-match",
+  "version": "1.0.0",
+  "description": "Match packages by name and upgrade them with only one command",
+  "main": "index.js",
+  "keywords": [
+    "yarn"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peter Mösenthin <peter.moesenthin@gmail.com> (https://github.com/alphabetapeter)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlphaBetaPeter/yarn-upgrade-match.git"
+  },
+  "bin": {
+    "yarn-upgrade-match": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "child_process": "^1.0.2",
+    "commander": "^2.9.0",
+    "cross-spawn": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "yesno": "^0.0.1"
+  }
+}
